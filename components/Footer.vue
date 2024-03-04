@@ -7,7 +7,7 @@
                         <div class="widget-item text-hawkes-blue">
                             <div class="footer-logo pb-4">
                                 <nuxt-link to="/">
-                                    <img src="/images/logo/logo-light.png" alt="Logo">
+                                    <img src="/images/logo/super-final-logo-light.png" alt="Logo">
                                 </nuxt-link>
                             </div>
                             <p class="short-desc font-size-16 mb-3">Construction of itself, because it is are <br>
@@ -105,7 +105,7 @@
                     </div>
                     <div class="col-md-6 col-sm-8 align-self-center">
                         <div class="copyright">
-                            <span class="copyright-text">© 2023 Oxybuild Made with <i class="ion-heart"></i> by <a href="#">HasThemes</a> </span>
+                            <span class="copyright-text">© 2024 K18 Made with <i class="ion-heart"></i> by <a href="#">HasThemes</a> </span>
                         </div>
                     </div>
                 </div>

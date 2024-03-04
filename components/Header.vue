@@ -7,7 +7,7 @@
                         <div class="header-top-left ml-8">
                             <div class="contact-number">
                                 <img src="/images/header/icon/phone.png" alt="Phone Icon">
-                                <a href="tel://0123456789">0123456789</a>
+                                <a href="tel://0123456789">09309555542</a>
                             </div>
                             <div class="time-schedule d-none d-sm-block">
                                 <img src="/images/header/icon/clock.png" alt="Clock Icon">
@@ -28,7 +28,7 @@
                 <div class="header-logo-wrap">
                     <div class="header-fixed-logo">
                         <nuxt-link to="/">
-                            <img src="/images/logo/logo.png" alt="Header Logo">
+                            <img src="/images/logo/super-final-logo.png" alt="Header Logo">
                         </nuxt-link>
                     </div>
                 </div>

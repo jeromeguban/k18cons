@@ -26,19 +26,19 @@
                             <ul>
                                 <li>
                                     Phone:
-                                    <a href="tel://0123456789">0123456789</a>
+                                    <a href="tel://09309555542">09309555542</a>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     Fax:
                                     <a href="tel://0123456789">0123456789</a>
-                                </li>
+                                </li> -->
                                 <li>
                                     Email:
                                     <a class="text-lowercase" href="mailto://info@example.com">info@example.com</a>
                                 </li>
                                 <li>
                                     Web:
-                                    <a class="text-lowercase" href="mailto://www.example.com">www.example.com</a>
+                                    <a class="text-lowercase" href="https://k18cons.vercel.app/">https://k18cons.vercel.app/</a>
                                 </li>
                             </ul>
                         </div>

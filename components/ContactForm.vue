@@ -9,18 +9,18 @@
                     <form class="contact-form mt-4 mt-lg-5">
                         <div class="row mtn-30">
                             <div class="col-lg-6 mt-30">
-                                <input type="text" placeholder="Your Name*" class="input-field">
+                                <input type="text" placeholder="Your Name*" v-model="inquiry.name" class="input-field">
                             </div>
                             <div class="col-lg-6 mt-30">
-                                <input type="text" placeholder="Your Email*" class="input-field">
+                                <input type="text" placeholder="Your Email*" v-model="inquiry.email" class="input-field">
                             </div>
                             <div class="col-12 mt-30">
-                                <textarea id="con_message" placeholder="Message" class="textarea-field"></textarea>
+                                <textarea id="con_message" placeholder="Message" v-model="inquiry.message" class="textarea-field"></textarea>
                             </div>
                         </div>
                         <div class="row mt-30">
                             <div class="col-12">
-                                <button type="submit" class="btn btn-custom btn-secondary btn-primary-hover">Submit</button>
+                                <button type="submit" class="btn btn-custom btn-secondary btn-primary-hover" @click.prevent="submitInquiry()">Submit</button>
                             </div>
                         </div>
                     </form>
@@ -37,3 +37,29 @@
         </div>
     </div>
 </template>
+<script>
+import { useRuntimeConfig } from 'nuxt/app';
+import axios from 'axios';
+export default {
+    name : 'contact-form',
+    data() {
+        return {
+            inquiry : {
+                name : '',
+                email : '',
+                message : '',
+
+            },
+        }
+    },
+    methods : {
+        submitInquiry() {
+            const config = useRuntimeConfig();
+            // console.log(config.public.apiBaseUrl + '/inquiries');
+            axios.post(config.public.apiBaseUrl + `/inquiries`, this.inquiry).then(response => {
+                window.location.reload();
+            })
+        },
+    },
+}
+</script>

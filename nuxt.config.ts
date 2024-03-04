@@ -10,6 +10,11 @@ export default defineNuxtConfig({
             },
         },
     },
+    runtimeConfig: {
+            public : {
+                apiBaseUrl : process.env.CMS_API_URL,
+            } 
+      },
     nitro: {
         devServer: {
           watch: ['./src']
