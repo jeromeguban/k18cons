@@ -7,14 +7,14 @@
                         <div class="widget-item text-hawkes-blue">
                             <div class="footer-logo pb-4">
                                 <nuxt-link to="/">
-                                    <img src="/images/logo/super-final-logo-light.png" alt="Logo">
+                                    <img src="/images/logo/new-logo-light.png" alt="Logo">
                                 </nuxt-link>
                             </div>
                             <p class="short-desc font-size-16 mb-3">Construction of itself, because it is are <br>
                         but because some proper style design is occur in toil and pain pleasure</p>
                             <div class="inquiry">
                                 <h5 class="text-primary">For inquiry</h5>
-                                <a href="tel://0123456789">0123456789</a>
+                                <a href="tel://0123456789">09309555542</a>
                             </div>
                         </div>
                     </div>
@@ -70,7 +70,7 @@
                                     <p class="mb-1">215 Central Road, North Street Central Park,
                                         <span class="text-primary">New York, USA</span>
                                     </p>
-                                    <span>0123456789 / 0123456789</span>
+                                    <span>09309555542</span>
                                 </div>
                                 <div class="widget-address">
                                     <p class="mb-1">Your address goes here,
